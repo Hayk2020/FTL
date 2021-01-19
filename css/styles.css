@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa;
+}
+.container-homemade {
+  padding: 0 10%;
+  background-color: #252525;
+}
+.fit-picture {
+  width: 250px;
+}
+.logo {
+  padding-top: 10px;
+  text-align: center;
+}
+.middle-container {
+  padding: 10px 10%;
+}
+.nav-item {
+  margin: 0 15px;
+}
+hr {
+  margin-top: 0;
+}
+.white-section {
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.social-icon {
+  margin: 30px 15px;
+}
