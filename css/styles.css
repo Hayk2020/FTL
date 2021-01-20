@@ -9,18 +9,24 @@ body {
   width: 250px;
 }
 .logo {
-  padding-top: 10px;
+  padding: 15px;
   text-align: center;
+    background-color: #f8f9fa;
+    position: fixed;
+    top:55px;
+    width:100%;
 }
-.middle-container {
-  padding: 10px 10%;
+.navigation-large {
+  background-color: #f8f9fa;
+  position: fixed;
+  top:160px;
+  width:100%
 }
+
 .nav-item {
   margin: 0 15px;
 }
-hr {
-  margin-top: 0;
-}
+
 .white-section {
   text-align: center;
   padding: 30px 30px;
@@ -34,11 +40,17 @@ hr {
   .container-homemade {
     display: none;
   }
+  .middle-container {
+    padding: 180px 10%;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   .small-screen {
     display: none;
+  }
+  .middle-container {
+    padding: 235px 10%;
   }
 }
 
